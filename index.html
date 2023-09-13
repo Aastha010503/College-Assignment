@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aastha's Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        PORTFOLIO
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#courses">CERTIFICATIONS</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">SKILLS</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about center">
+        <h1><span class="about__name">Aastha Singh</span></h1>
+        <h2 class="about__role">Crafting digital experiences as a Frontend Developer</h2>
+        <p class="about__desc">
+            I am an undergraduate student pursuing Bachelor's of Engineering in CSE with specialization in DevOps, currently in my 5th semester. I am an adaptive and cooperative student with an array of skills that includes beneficial problem-solving, teamwork, and interpersonal abilities.
+        </p>
+
+        <div class="about__contact center">
+          <a href="Resume.jpg" target="_blank">
+            <span class="btn btn--outline">View Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/Aastha010503"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/aastha-singh-494a2a230/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <section id="courses" class="section courses">
+        <h2 class="section__title">CERTIFICATIONS</h2>
+
+        <div class="courses__grid">
+          <div class="course">
+            <h3>Advanced Theoretical JavaScript</h3>
+            <p class="course__description">
+                This course explores the intricacies of JavaScript's core concepts, including closures, asynchronous programming, prototypes, and functional programming.
+            </p>
+            <a
+              href="https://codedamn.com/certificate/verify/bb81bd149690ba06ee7b326f7b628a85de69bd52"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="course">
+            <h3>React Js Tutorial</h3>
+            <p class="course__description">
+                A popular JavaScript library for building user interfaces.Build dynamic web applications and understand component-based architecture.
+            </p>
+            <a
+              href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Folympus1.mygreatlearning.com%2Fcourse_certificate%2FIGNAGJAY"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="course">
+            <h3>Back-End Engineering Job Simulation</h3>
+            <p class="course__description">
+                Develop key skills in system architecture, scalability, data management, and API development
+            </p>
+
+            <a
+              href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Lyft/xSw9echtixLAoPdsH_Lyft_ox7BmztQ5YCdBZ6cG_1693250854078_completion_certificate.pdf"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">MongoDb</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:aasthasingh75518@gmail.com">
+          <span class="btn btn--outline">Email</span>
+        </a> <br>
+        <a href="tel:+7668054198">
+            <span class="btn btn--outline">Call</span>
+          </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Open Portfolio on Github
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
